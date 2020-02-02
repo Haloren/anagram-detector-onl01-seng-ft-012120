@@ -10,7 +10,6 @@ class Anagram
   array1 = %w(@word)
   array2 = %w(word) 
     array1.sort == array2.sort    
-  end       
     
   # compare each word of each array @word compared to (==) word
  
@@ -20,6 +19,6 @@ class Anagram
     
   # split @word & word into arrays and sort them to compare 
   # arrays are = if contain same elements in same order (.sort)
-  end 
+  end
   
 end 
